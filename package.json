@@ -1,0 +1,16 @@
+{
+  "name": "mqtt-bridge",
+  "version": "1.0.0",
+  "description": "This app allows you to make MQTT publications using HTTP POST calls",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matto Godoy",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mqtt": "^2.2.0"
+  }
+}
